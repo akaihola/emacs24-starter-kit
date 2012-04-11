@@ -50,7 +50,9 @@ evaluated a theme is activated using the =load-theme= function.
       truncate-partial-width-windows nil
       uniquify-buffer-name-style 'forward
       whitespace-style '(trailing lines space-before-tab
-                                  indentation space-after-tab)
+                                  indentation space-after-tab
+                                  face)
+      ;; http://emacswiki.org/emacs/WhiteSpace
       whitespace-line-column 100
       ediff-window-setup-function 'ediff-setup-windows-plain
       oddmuse-directory (concat starter-kit-dir "oddmuse")
