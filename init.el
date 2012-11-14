@@ -10,6 +10,7 @@
       (file-name-directory (or load-file-name (buffer-file-name))))
 
 ;; load up the starter kit
+(require 'ob-tangle)
 (org-babel-load-file (expand-file-name "starter-kit.org" starter-kit-dir))
 
 ;;; init.el ends here
